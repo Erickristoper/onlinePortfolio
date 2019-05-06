@@ -10,34 +10,37 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
-<div class="header">
-  <h1>Build. Explore. Create.</h1>
-  <p>and more sleep...</p>
+
+<div class="header w3-display-container">
+	<img src="https://lh3.googleusercontent.com/aOwy4Kfnje3trt5K8Uw66UmB98AsWZFo1HLU_zSApUIdZUU8N2MEc3MzMVauaZF-Yy2IEHBIn5B8W9B9P1wPfG2oOB9b3R-C_J2Rf5YoCD6vzsGiTZbpDNpx5G0JE7CN0zfAi9gNUGRSH7rhECqTRR8RZIetIITQ6Z67BgpfqFNlh2LCXXlMIykKDDH762OnTNqaHD_iCGy2fLSq9USYVSBRrJ4UV7PedObxgTQ9jEbIuuwyGc4qGhjtHCfzl41ZBOA6T7fsxTg4uGkq3MoHFLokw6gJBU1nyMeUNcEePayVJPXn2FwnBw-xzPKvZLdtaTC0WII9UErZR8QpqTUXKzS5g76C4qZtPuH9sFyMEAvufo_QtdXGG0Qm4OUsOSm9QoPlHBdbf_TIx0Ff0kjn03ZbelUNADC9kd3B3WaFkKMeNtZL8j5_fcN8hWYca1aBb_1qOVL36lFNy9NTVPm0Fqp0PSUGQ64jHtNNbPXqrlRe__Y8VCrBQoD96vycsyM61qdDYr0jrc4t7xMOXvivzR7UhVCx6Im_CmfziGggAnbwzmg-_T-tT-rV8tFGQGl3EMybIL0s8CHh6xOIaU4ENL-H7XHB-gwwd75HDJHNgUXDPZaoWBBZ5eU0BD-buL1wY1zkJGhm0eY1Af8AHQPq0b2p_iQNNtg=w1920-h762-no" style="max-width:100%;height:auto;">	
+	<div class="w3-display-middle w3-large">
+		<h1>Build. Explore. Create.</h1>
+		<p>and sleep more...</p>
+	</div>
 </div>
 
 <!-- Navbar -->
-<div class="w3-top">
+<div class="nav">
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Java</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Python</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Good Stuffs</a>
-	<a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Computer Science</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="#java" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Java</a>
+    <a href="#python" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Python</a>
+    <a href="#stuffs" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Good Stuffs</a>
+	<a href="#cs" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Computer Science</a>
     
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right">Me</a>
+    <a href="#me" class="w3-padding-large w3-hover-red w3-hide-small w3-right">Me</a>
   </div>
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Java</a>
-  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Python</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Good Stuffs</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Computer Science</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Me</a>
+  <a href="#java" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Java</a>
+  <a href="#python" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Python</a>
+  <a href="#stuffs" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Good Stuffs</a>
+  <a href="#cs" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Computer Science</a>
+  <a href="#me" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Me</a>
 </div>
-
 <div class="row">
   <div class="side">
     <h2>I'm Eric</h2>
@@ -46,15 +49,22 @@
   </div>
   <div class="main">
     <h2>How fast this site went live?</h2>
-    <h5>I've been wanting to have my site up for the longest time but never had courage. Read why., April 05, 2019</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <h5>I wanted to have a personal site since college. Well after five years, here it is!</h5>
+    <img src="img/1EntryImg.jpg" style="max-width:100%;height:auto;">	
+    <p>Today, 5th of May 2019, I pushed my initial commit on Github with all courage and did not care.  In parallel, I am writing down this essay to document the process real time so here are the things I was able to accomplish:</p>
+    <ul>
+		<li>Create a github repo.</li>
+		<li>Pull up W3School website for references on html, css and javascript. Primarily, all things web.</li>
+		<li>Push the very basic-looking website. Not CMS, no back-end. Purely html coded file. But yes! I did not forget to put my face on it.</li>
+		<li>I also started writing this article to be my very first post which I literally copy pasted to the index.html file.</li>
+	</ul>
+	
+	<p>If you were one of the people like me that don’t know where to start, I hope that you can get guidance from it. I intent to organize and create a learning path discussing the development of this site. Hopefully, I’ll get there but for now random as it can be, you’ll see things get added to site.</p>
   </div>
 </div>
 
 <div class="footer">
-  <h2>Footer</h2>
+  <h2>Est. 2019</h2>
 </div>
 <script>
 // Used to toggle the menu on small screens when clicking on the menu button
